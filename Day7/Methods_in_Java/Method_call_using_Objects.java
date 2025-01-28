@@ -11,7 +11,7 @@ class Method_call_using_Objects{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two number to check their avg is even or not.");
-        int a = sc.nextInt();
+        int a = sc.nextInt(); 
         int b = sc.nextInt();
         System.out.println("Creating the object of class Method_call_using_Objects");
         Method_call_using_Objects obj = new Method_call_using_Objects();
