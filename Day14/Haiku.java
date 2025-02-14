@@ -16,13 +16,13 @@
 // beta round is running
 //    a rustling of keys 
 // OutputCopy
-// YES
+// YES. 
 // InputCopy
 // how many gallons
 // of edo s rain did you drink
 //                                 cuckoo
 // OutputCopy
-// NO
+// NO. 
 import java.util.*;
 class Haiku{
     public static void main(String args[]){
