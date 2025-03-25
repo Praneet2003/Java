@@ -6,7 +6,7 @@ interface camera{
     }
     //default method is used to add functionalities to the interface,
     // and this method is common for all implementing class.
-    // which is not necessarly overridden by the implementing class.
+    // which is not necessarly overridden by the implementing class
     default void record4Kvideos(){
         System.out.println("Calling the Private method..");
         greet();// we can also use private data members or method inside our default method.
