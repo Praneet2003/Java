@@ -1,3 +1,4 @@
+import java.util.*;
 class Array_declaration{
     public static void main(String[] args) {
         int [] marks;//Declaration of array marks
@@ -20,6 +21,6 @@ class Array_declaration{
         for(int i=n1-1;i>=0;i--){
             System.out.println(names[i]);
         }
-        System.err.println(arr1.toString());
+        System.err.println("Printing the array elements include [ ] using .toString method: \n"+Arrays.toString(arr1));
     }
 }
