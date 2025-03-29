@@ -20,5 +20,6 @@ class Array_declaration{
         for(int i=n1-1;i>=0;i--){
             System.out.println(names[i]);
         }
+        System.err.println(arr1.toString());
     }
 }
