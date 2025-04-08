@@ -11,7 +11,7 @@ interface Interface {
 public class Interfaceexample implements Interface{
     public static void main(String[] args) {
         Interfaceexample obj = new Interfaceexample();
-        obj.show();
+        obj.show();// calling default method of interface
         Interface.display();
     }
 }
