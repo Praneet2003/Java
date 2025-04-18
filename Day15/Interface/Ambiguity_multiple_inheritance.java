@@ -33,7 +33,7 @@ class emp implements A,B{
 public class Ambiguity_multiple_inheritance{
     public static void main(String[] args) {
     emp obj = new emp();
-    obj.peek();
+    obj.peek();//
     obj.seek();
     obj.run();
     obj.cat();
