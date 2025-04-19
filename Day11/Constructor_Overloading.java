@@ -8,7 +8,7 @@ class Employee{
         id = x;
         name = n;
     }
-    public Employee(){
+    public Employee(){//constructors with different method signatures
         System.out.println("Hi I am constructor having no parameters.");
         id =101;
         name = "Praneet Raj";
