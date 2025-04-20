@@ -9,7 +9,7 @@ class circle{
         return Math.PI*r*r;
     }
 }
-class Cylinder extends circle{
+class Cylinder extends circle{//cylinder inherited from circle
     public int h;
     public Cylinder(int height ,double r){
         super(r);
