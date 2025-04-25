@@ -33,7 +33,7 @@ import java.util.*;
 class DeadpoolMarathonWatchtime{
     public static void main(String[] args) {
        //type your code here
-        Scanner obj = new Scanner(System.in);
+        Scanner obj = new Scanner(System.in);//
         int n = obj.nextInt();//total number of movies.
         int k = obj.nextInt();//movies seen before break
         int breaktime = (n%k==0)? (n/k -1):(n/k);
