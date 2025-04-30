@@ -1,6 +1,6 @@
 // Anannomous classes are those classes which are defined and implemented in same line
 interface A{
-    void seek();
+    void seek();// interface having by default public abstract method
 }
 class outer{
     void call(){
