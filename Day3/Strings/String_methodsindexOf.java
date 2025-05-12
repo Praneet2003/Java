@@ -15,6 +15,5 @@ class String_methodsindexOf{
         System.out.println(a2.lastIndexOf("ple",8));
         String a3 = "Praneet aur Nraneet";
         System.out.println("Lastindex: "+a3.lastIndexOf("ee",18));
-
     }
 }
