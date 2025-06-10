@@ -5,7 +5,6 @@ class Box<T1, T2>{
         this.a = a;
         return a;
     }
-
 }
 class multiple_templates{
     public static void main(String[] args){
