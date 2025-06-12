@@ -1,13 +1,13 @@
-interface Vehicle{
+interface Vehicle{//1st interface
     void start();
     void type();
     void company();
 }
-interface Properties{
+interface Properties{//2nd interface
     void SportsMode();
     void fourWheelDrive();
 }
-class Safari implements Vehicle,Properties{
+class Safari implements Vehicle,Properties{// implements both of the class, as follows the oops property multiple inheritance
     @Override
     public void start(){
         System.out.println("The car is started by push start/stop Button.");
