@@ -5,10 +5,10 @@ class multiple_constructor_AnonymousBlock{
     public multiple_constructor_AnonymousBlock(int x){
         System.out.println("Second Constructor");
     }
-    {
+    {//anonymous block 1st.
         System.out.println("Hello i am also an Anonymous block");
     }
-    {
+    {//annonymous block 2nd.
         System.out.print("Hello world i am with the ");
     }
     public static void main(String[] args) {
